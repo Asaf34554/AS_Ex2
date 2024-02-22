@@ -11,9 +11,9 @@ This project implements a prime number counter that utilizes threading to proces
 - Provides benchmarking results for performance evaluation.
 
 ## Usage
-1. **Compilation**: Compile the source files using a C compiler. For example:
+1. **Compilation**: Compile the source files using a make command. For example:
     ```
-    gcc -o primeCounter primeCountersThread.c tpool.c prime_utils.c -lpthread
+    make
     ```
 2. **Execution**: Run the compiled program with input from the provided random number generator. For example:
     ```
