@@ -11,4 +11,4 @@ primesCounter: primeCountersThread.c tpool.c
 primesCounter2: primeCounter.c 
 	gcc -o primesCounter2 primeCounter.c
 clean:
-	-rm randomGenerator primeCounter primesCounter2 2>/dev/null
+	-rm randomGenerator primesCounter primesCounter2 2>/dev/null
